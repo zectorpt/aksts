@@ -1,10 +1,10 @@
 # aksts
-AKS Troubleshooting
+AKS Troubleshooting <br>
 
-kubectl create deployment --image=jomedei/aksts:withsleep akstsdpl
-kubectl get pods
+kubectl create deployment --image=jomedei/aksts:withsleep akstsdpl <br>
+kubectl get pods <br>
 
-#NAME                        READY   STATUS    RESTARTS   AGE
-#akstsdpl-7b945f46fb-dc8gd   1/1     Running   0          3s
+#NAME                        READY   STATUS    RESTARTS   AGE <br>
+#akstsdpl-7b945f46fb-dc8gd   1/1     Running   0          3s <br>
 
-kubectl exec -it akstsdpl-7b945f46fb-dc8gd -- /bin/bash
+kubectl exec -it akstsdpl-7b945f46fb-dc8gd -- /bin/bash <br>
