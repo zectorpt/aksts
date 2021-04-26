@@ -1,7 +1,7 @@
 # aksts
 AKS Troubleshooting <br>
 
-kubectl create deployment --image=jomedei/aksts:withsleep akstsdpl <br>
+kubectl create deployment --image=jomedei/aksts akstsdpl <br>
 kubectl get pods <br>
 
 #NAME                        READY   STATUS    RESTARTS   AGE <br>
